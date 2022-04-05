@@ -12,5 +12,7 @@ Hardware RTC on DS1302 for RaspberryPi
 Файл get - читает из микросхемы время и устанавливает его как системное в Linux. Необходимо прописать автозапуск в etc/rc/local.
 
 Запуск только в Python2:
+
 sudo python set.py - при установке вручную
+
 sudo pytojn get.py - каждый раз при старте системы
